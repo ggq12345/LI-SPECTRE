@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Model weights and archives
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.h5
+*.onnx
+*.safetensors
+
+# Medical imaging data
+*.nii
+*.nii.gz
+*.nrrd
+*.dcm
+*.mha
+*.npz
+*.pkl
+
+# nnUNet directories
+nnUNet_raw/
+nnUNet_preprocessed/
+nnUNet_results/
+nnUNet_trained_models/
+
+# Datasets and raw data
+data/
+datasets/
+
+# Training outputs
+runs/
+wandb/
+outputs/
+checkpoints/
+*.log
+
+# Environment and secrets
+.env
+*.env
+
+# System and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
